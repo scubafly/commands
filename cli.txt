@@ -1,3 +1,6 @@
 # change symlink to another location
 
 $ ln -sfn source_file_or_directory_name softlink_name
+
+#rsync
+$ rsync -av legolas.globalsites.nl:/var/www/ <sitename>  /cnf/files/* path/to/files
