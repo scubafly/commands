@@ -14,3 +14,6 @@ $ rbenv local <version>
 $ gem install bundler
 $ bundel install
 
+# add basic auth
+$ htpasswd /home/_httpasswd/.htpasswd tom
+$ enter password
