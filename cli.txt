@@ -17,3 +17,14 @@ $ bundel install
 # add basic auth
 $ htpasswd /home/_httpasswd/.htpasswd tom
 $ enter password
+
+   tar cvzf foo.tgz foldername
+will tar the directory foldername (and its files/subdirectories) into a tar file named foo.tgz.
+To see a tar file's table of contents use:
+
+   tar tzf foo.tgz
+
+To extract the contents of a tar file use:
+
+    tar xvzf foo.tgz
+
